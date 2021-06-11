@@ -45,7 +45,7 @@ const Todoapp = () => {
                 <div className='app' style={{ display: "flex", alignItems: 'center', flexDirection: 'column', height: '80vh', width: '30%' }}>
 
                     <img src={logo} alt="Logo" style={{ height: '80px', width: '80px', marginBottom: '25px' }} />
-                    <h1 style={{ fontSize: '40px', fontFamily: 'sans-serif', color: 'white' }}>My Todo List</h1>
+                    <h1 style={{ fontSize: '40px', fontFamily: 'sans-serif', color: 'white', textAlign:'center' }}>My Todo List</h1>
 
                     <div style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '25px 0px' }}>
 
